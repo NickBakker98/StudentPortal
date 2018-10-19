@@ -50,7 +50,7 @@ public class AddPortalActivity extends AppCompatActivity {
 
                 //Check if all the fields have been filled (else Snackbar).
                 if(TextUtils.isEmpty(mTitle) || TextUtils.isEmpty(mURL)){
-                    Snackbar.make(getCurrentFocus(),"Vul alle velden in.", Snackbar.LENGTH_SHORT).show();
+                    Snackbar.make(getCurrentFocus(),"Fill in all fields.", Snackbar.LENGTH_SHORT).show();
                     return;
                 }
 
